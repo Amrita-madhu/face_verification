@@ -1,0 +1,22 @@
+Face / Non-Face Classification Results
+=============================================
+Total images: 1100
+Face images: 500
+Non-face images: 600
+Training images: 825
+Testing images: 275
+Image size: (64, 64)
+Feature extraction: Full-image HOG
+Feature scaling: StandardScaler
+Classifier: Logistic Regression
+Regularization: L2
+C: 1.0
+Accuracy: 0.9855
+Precision: 0.9764
+Recall: 0.9920
+F1-score: 0.9841
+Elapsed seconds: 1.036
+
+Confusion matrix (Non-Face, Face):
+[[147   3]
+ [  1 124]]
